@@ -57,4 +57,12 @@ with tabs[1]:
    st.subheader("Lista completa de los ingredientes 📝")
    for ingredientes in ingredientes:
      st.write(f"➤ {ingredientes}")
-   
+   with tabs:
+     st.header("Link utiles")
+     st.write("Haz clic en los siguinetes enlaces para visitar paginas de recetas")
+     st.markdown("[LoveVeg](https://loveveg.mx/recetas/)")
+     st.markdown("[Nutritionfacts](https://nutritionfacts.org/es/recipes/)")
+     st.markdown("[Veganoutreach](https://veganoutreach.org/recetas/)")
+     st.markdown("[Veganuary](https://veganoutreach.org/recetas/)")
+     st.markdown("[PCRM](https://www.pcrm.org/good-nutrition/plant-based-diets/recipes)")
+     st.info("Los enlaces se abriran n una nueva pestaña del navegador.")
